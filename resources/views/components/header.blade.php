@@ -12,26 +12,39 @@
             box-sizing: border-box;
         }
         .header-container{
-            margin: 40px 0;
-            text-align: center;
+            
+            align-items: center;
+            margin: 10px 0;
         }
         .header-ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             list-style-type: none;
         }
         .header-li{
             display: inline;
-            padding: 30px;
+            padding: 0 30px;
         }
         .header-img-container{
             height: 300px;
             width: 100%;
             background-color: green;
         }
+        .header-img-container img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
     </style>
 </head>
     <header>
         <div class="header-container">
             <ul class="header-ul">
+                
+                    <img src="{{asset('storage/assets/dc-logo.png')}}">
+                
                 <li class="header-li">CHARACTERS</li>
                 <li class="header-li">COMICS</li>
                 <li class="header-li">MOVIES</li>
@@ -45,7 +58,7 @@
             </ul>
         </div>
         <div class="header-img-container">
-            
+            <img src="{{asset('storage/assets/jumbotron.jpg')}}" alt="">
         </div>
     </header>
 </html>

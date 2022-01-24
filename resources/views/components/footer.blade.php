@@ -9,7 +9,7 @@
         .up-footer{
             height: 300px;
             width: 100%;
-            background-color: #232323;
+            background-image: url("storage/assets/footer-bg.jpg");
         }
         .down-footer{
             height: 100px;
@@ -20,10 +20,9 @@
 </head>
 <body>
     <div class="up-footer">
-        Up-Footer
+        
     </div>
     <div class="down-footer">
-        down-Footer
     </div>
 </body>
 </html>
